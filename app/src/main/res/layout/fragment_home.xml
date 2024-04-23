@@ -7,8 +7,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.AccountFragment"
     android:background="@drawable/backgroud_item_reverse">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imgBack"
@@ -113,7 +121,7 @@
             android:ellipsize="end"
             android:maxLines="2"/>
     </RelativeLayout>
-    
+
     <RelativeLayout
         android:id="@+id/rlvStatus1"
         android:layout_width="match_parent"
@@ -179,7 +187,7 @@
                     android:layout_marginTop="4dp"/>
             </RelativeLayout>
         </RelativeLayout>
-        
+
     </RelativeLayout>
 
 
@@ -349,4 +357,12 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="12dp"
         android:text="Tim Kiem" />
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
 </RelativeLayout>
