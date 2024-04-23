@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.APPClient.NoActionBarv23">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:statusBarColor">@color/background_toolbar</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
